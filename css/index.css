@@ -39,6 +39,15 @@
     transition: 0.3s;
     background-color: rgb(124, 26, 56);
 }
+.nuevaTarea{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
 .lista_tareas {
     width: 100%;
     display: flex;
@@ -49,7 +58,7 @@
 .formulario {
     width: 80%;
     height: 30rem;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(175, 173, 173);
     border: 1px solid black;
     border-radius: 5px;
     position: absolute;
@@ -57,7 +66,8 @@
     text-align: center;
 }
 .formulario input{
-    width: 25%;
+    width: 30rem;
+    height: 2.5rem;
 }
 
 .div_controles {
@@ -74,18 +84,18 @@
     cursor: pointer;
 }
 .btn_cerrar:hover {
-    color: rgb(124, 0, 0);
+    color: rgb(242, 4, 4);
 }
 
 .btn-crear {
-    max-width: 10rem;
+    max-width: 15rem;
     background-color: rgba(224, 223, 223, 0.63);
     padding: 3rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-left:54rem;
-    margin-top: 14rem;
+    margin-top: 15px;
+    margin-left: 14.5rem;
 
 }
 .btn-crear:hover{
@@ -102,6 +112,8 @@
 }
 .activar_b {
     display: block;
+    width: 45rem;
+    height: 20rem;
 }
 .activar_f {
     display: flex;

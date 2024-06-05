@@ -28,7 +28,10 @@ cargar_tareas();
 function cargar_botones(){
     let caja_btn = document.querySelector(".botones");
 
-    caja_btn.innerHTML = ` <div class="btn_mas"> + </div>`;
+    caja_btn.innerHTML = ` 
+    <div class="nuevaTarea"> Nueva Tarea</div>
+    <div class="btn_mas"> + </div>
+    `;
 }
 cargar_botones();
 
